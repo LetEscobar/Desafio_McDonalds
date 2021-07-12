@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container {
+	width: 1440px;
+    height: 768px;;
+    height: 100%;
+    background-image: url(files/BG.png);
+    padding: 3% 5% 3% 5%;
+    position: relative;
+    box-sizing: border-box;
+}
+#menu{
+    width: 35%;
+    margin-left: auto;
+    margin-top: 3%;
+}
+.aMenu{
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 35px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 5%;
+}
+.aMenu:hover{
+    text-decoration: underline;
+}
+h1{
+    width: 654px;
+    height: 177px;
+    left: 100px;
+    top: 225px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 88px;
+    color: #FFFFFF;
+}
+p{
+    width: 567px;
+    height: 88px;
+    left: 100px;
+    top: 449px;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ECECEC;
+}
+#bigPhone{
+    max-width: 35%;
+    position: absolute; 
+    bottom: -5%; 
+    right: 13%;
+}
+#blackPhone{
+    position: absolute;
+    top: 20%;
+    left: 66%;
+}
+#redPhone{
+    position: absolute;
+    bottom: 58%;
+    left: 32.5%;
+    max-height: 50%;
+}
+#yellowPhone{
+    position: absolute;
+    bottom: 0%;
+    left: 37%;
+}
